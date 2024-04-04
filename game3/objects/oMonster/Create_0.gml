@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+get_damaged_create(10);
 spd = 0;
 chaseSpd=.5;
 dir = 0;
@@ -31,4 +31,13 @@ recoverTimer=45;
  
  bulletXoff=5;
  bulletYoff=-8;
+ 
+ 
+ alert =false;
+/// vapo pham vi 160 quai vat se duoi theo ban
+alert_dis=300;
+////vao pham vi quai vat ngung cham vao ban
+attack_dis=50;
+
+move_spd =0.5;
 

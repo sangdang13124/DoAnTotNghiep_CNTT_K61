@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oBazoka",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,8 +13,8 @@
     "path": "folders/Player.yy",
   },
   "parentObjectId": {
-    "name": "oDamageEnemy",
-    "path": "objects/oDamageEnemy/oDamageEnemy.yy",
+    "name": "oBlackbuller",
+    "path": "objects/oBlackbuller/oBlackbuller.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

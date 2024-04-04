@@ -41,9 +41,9 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(Font1);
 //số lần tiêu diệt kẻ thù hiện tại
-  draw_text_transformed(_ecHudX+30,_ecHudY+1,string(global.enemyKillCount),0.6,0.6,0);
+  draw_text_transformed(_ecHudX+30,_ecHudY+5,string(global.enemyKillCount),0.4,0.4,0);
   // tong so ke dich
- draw_text_transformed(_ecHudX+45,_ecHudY+1,"/"+string(global.enemyRoomMax),0.6,0.6,0);
+ draw_text_transformed(_ecHudX+50,_ecHudY+5,"/"+string(global.enemyRoomMax),0.4,0.4,0);
  
 ///ve ra so dan
 //var _playerammo = global.PlayerAmmo;

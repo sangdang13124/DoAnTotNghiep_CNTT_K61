@@ -3,7 +3,7 @@ if screen_pause() {exit;};
 
 if createDamageObjects == false
 {
- damageInst = instance_create_depth(x,y,oDamageAll);
+ damageInst = instance_create_depth(x,y,oDamageEnemy);
 with(damageInst)
 {
 	damage = other.damage;
@@ -14,7 +14,6 @@ image_yscale=other.image_yscale;
 }
 
 createDamageObjects= true;	
-
 
 }
 ///loại bỏ các đối tượng thiệt hại sau khi chúng được thực hiện

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "WallObjects",
-    "path": "folders/WallObjects.yy",
+    "name": "game3",
+    "path": "game3.yyp",
   },
   "parentObjectId": {
     "name": "oSolidwall",

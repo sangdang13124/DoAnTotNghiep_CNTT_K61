@@ -26,7 +26,7 @@ depth =-y;
 	};
  
     ///collision
-if place_meeting(x,y,oSolidwall){destroy = true;};
+//if place_meeting(x,y,oSolidwall){destroy = true;};
  
 
 

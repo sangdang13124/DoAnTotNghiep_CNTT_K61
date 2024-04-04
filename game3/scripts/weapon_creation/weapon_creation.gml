@@ -25,7 +25,7 @@ global.WeaponList =
 	 sBlack,
 	 sprite_get_bbox_right(sBlack) - sprite_get_xoffset(sBlack),
 	 oBlackbuller,
-	 40,
+	 30,
 	 1,
 	 0,
 	 sBlackPickup
@@ -36,8 +36,8 @@ global.WeaponList =
 	 sBlackYellow,
      sprite_get_bbox_right(sBlackYellow) + sprite_get_xoffset(sBlackYellow) ,
 	 oYellowbullet,
-	 3,
-	 1,
+	 10,
+	 2,
 	 0,
 	 sBlackYellowPickup
 	 	),
@@ -46,8 +46,8 @@ global.WeaponList =
 	 sRed,
      sprite_get_bbox_right(sRed) + sprite_get_xoffset(sRed) ,
 	 oRedbullet,
-	 15,
-	 6,
+	 50,
+	 7,
 	 60,
      sRedpickup
 	),
@@ -56,7 +56,7 @@ global.WeaponList =
 	 sBazoka,
      sprite_get_bbox_right(sBazoka) - sprite_get_xoffset(sBazoka) ,
 	 oBazoka,
-	 15,
+	 70,
 	 1,
 	 0,
      sBazokaPickup
@@ -74,7 +74,7 @@ global.WeaponList =
 	 sBoomHa,
      sprite_get_bbox_right(sSuriken) - sprite_get_xoffset(sSuriken) ,
 	 oBoomHaBullet,
-	 15,
+	 40,
 	 1,
 	 0,
      sBoomHaPickup

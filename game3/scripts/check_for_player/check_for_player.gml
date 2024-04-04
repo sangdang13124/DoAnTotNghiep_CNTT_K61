@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function check_for_player(){
+
 var _dir = distance_to_object(oPlayer);
 //// vao pham vi tan cong cua quai vat  va ngoai pahm vi quuai vat tan cong
 
@@ -20,7 +22,7 @@ if _player != noone {
 
 if _found_player{
 	path_start(path,move_spd,path_action_stop,false);
-	
+
 }
 	
 	

@@ -91,7 +91,7 @@ shootTimer++;
 //tao vien dan
 if shootTimer==1
 {
-	bulletInst = instance_create_depth(x+bulletXoff*face,y,depth+bulletYoff,oEnemybullet);
+	bulletInst = instance_create_depth(x+bulletXoff*face,y,depth+bulletYoff,oEnemyBulletNormal);
 }
 
 ///giữ viên đạn trong tay quái vật
@@ -151,8 +151,8 @@ if place_meeting(x , y + yspd , oWall) {yspd = 0;}
 
 check_for_player()
 ///quai vat va cham voi nhau
-if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}
-if place_meeting(x , y + yspd , oEnemyParent) {yspd=0;}
+//if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}
+//if place_meeting(x , y + yspd , oEnemyParent) {yspd=0;}
 }
 
 

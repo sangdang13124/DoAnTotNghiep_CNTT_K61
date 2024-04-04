@@ -80,6 +80,7 @@ dir = point_direction(x,y,oPlayer.x,oPlayer.y);
 }
 ///đặt đúng tốc độ
 spd=0;
+
 ///bat dau hoat anh tan cong
 _autoSprites =false;
 if sprite_index !=sSuperAttackSkill
@@ -89,13 +90,16 @@ if sprite_index !=sSuperAttackSkill
 }
 if sprite_index==sSuperAttackSkill && floor(image_index)== attackFrame && !attackTriggered
 {
+	  instance_create_depth(x,y,depth,oUsung);
+	   instance_create_depth(x,y,depth,oBoosBee);
+
 	attackTriggered=true;
-	var _attackDist =200;
+	var _attackDist =300;
 	var _attackSep =20 ;
 	var _attackNum= round(_attackDist/_attackSep);
 	var _attackDirSep = 10;
 	
-	for(var ds=0;ds<3;ds++)
+	for(var ds=0;ds<4;ds++)
 	{
 	var _dir =dir -_attackDirSep+_attackDirSep*ds;
 	for(var i=1;i< _attackNum;i++)
@@ -106,14 +110,20 @@ if sprite_index==sSuperAttackSkill && floor(image_index)== attackFrame && !attac
 		if !position_meeting(_xx,_yy,oWall)
 		{
 	var _inst =	instance_create_depth(_xx,_yy,depth,oSkill);
+	
 	_inst.delay =i*4;
 	}else{
 		i+=99;
 		//ds +=1;
+		
 	}
+
+	
   }
 	}
+	
 }
+
 ///giu hoat anh
 if sprite_index == sSuperAttackSkill && floor(image_index) == holdFrame
 {
@@ -122,6 +132,7 @@ if sprite_index == sSuperAttackSkill && floor(image_index) == holdFrame
 	{
 		image_index=holdFrame;
 	}
+	
 }
 
 #endregion
@@ -154,13 +165,13 @@ if _wallCollisions == true
 if place_meeting(x + xspd , y, oWall) {xspd = 0;}
 if place_meeting(x , y + yspd , oWall) {yspd = 0;}
 ///quai vat va cham voi nhau
-if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}
-if place_meeting(x , y + yspd , oEnemyParent) {yspd=0;}
+//if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}
+//if place_meeting(x , y + yspd , oEnemyParent) {yspd=0;}
 }
 
 /// di chuyen
- x += xspd;
- y += yspd;
+ //x += xspd;
+ //y += yspd;
  ///đặt độ sâu
  depth=-y;
 

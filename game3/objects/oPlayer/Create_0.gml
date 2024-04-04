@@ -3,7 +3,7 @@ if instance_number(oPlayer) > 1 {instance_destroy();};
 
 ///thiết lập thiệt hại
 
-get_damaged_create(10,true);
+get_damaged_create(100,true);
 
 
 

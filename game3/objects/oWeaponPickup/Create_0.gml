@@ -1,5 +1,5 @@
 
-depth=-y
+depth=100;
 //weapon style
 
 
@@ -19,27 +19,27 @@ weapon= global.WeaponList.black;
 if image_index == 1
 {
 	weapon= global.WeaponList.yellow;
-	ammoAdd=100;
+	ammoAdd=1000;
 }
 if image_index == 2
 {
 	weapon= global.WeaponList.red;
-	ammoAdd=100;
+	ammoAdd=1000;
 }
 if image_index == 3
 {
 	weapon= global.WeaponList.bazoka;
-	ammoAdd=100;
+	ammoAdd=1000;
 }
 if image_index == 4
 {
 	weapon= global.WeaponList.suriken;
-	ammoAdd=100;
+	ammoAdd=1000;
 }
 if image_index == 5
 {
 	weapon= global.WeaponList.BoomHa;
-	ammoAdd=100;
+	ammoAdd=1000;
 
 }
 // dat dung trang thai

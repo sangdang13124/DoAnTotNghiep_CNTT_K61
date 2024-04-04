@@ -1,0 +1,2 @@
+///xoa
+instance_destroy();

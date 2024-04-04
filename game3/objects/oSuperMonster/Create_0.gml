@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+get_damaged_create(150);
 //cai dat huong mat 
 sprite[0] = right;
 sprite[1] = up;
@@ -46,3 +47,10 @@ recoverTimer=45;
  bulletXoff=5;
  bulletYoff=-8;
 
+alert =false;
+/// vapo pham vi 160 quai vat se duoi theo ban
+alert_dis=250;
+////vao pham vi quai vat ngung cham vao ban
+attack_dis=100;
+
+move_spd =1;

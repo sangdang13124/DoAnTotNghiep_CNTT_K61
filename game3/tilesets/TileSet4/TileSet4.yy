@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "game3",
-    "path": "game3.yyp",
+    "name": "Map",
+    "path": "folders/Map.yy",
   },
   "spriteId": {
     "name": "sMapvip",

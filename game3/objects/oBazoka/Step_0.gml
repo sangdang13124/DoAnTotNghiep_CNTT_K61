@@ -17,11 +17,7 @@ depth =-y;
  image_angle=dir;
  
  if hitConfirm == true && enemyDistroy == true { destroy=true ;};
- 
-
-
-
- if destroy == true {
+  if destroy == true {
 	 instance_create_depth(x,y,depth-50,oBigBoom);
 	 instance_destroy();};
  

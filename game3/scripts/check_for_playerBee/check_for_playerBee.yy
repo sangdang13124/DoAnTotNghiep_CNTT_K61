@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "game3",
-    "path": "game3.yyp",
+    "name": "Enemy",
+    "path": "folders/Enemy.yy",
   },
 }

@@ -19,10 +19,12 @@ draw_sprite_ext(weapon.sprite,0,x+_xOffset	,centerY+_yOffset,1,_weaponYscl,aimDi
 	if instance_exists(oScreenPause)
   {
 	image_speed = 0;
+	path_end();
 	return true ;
   }else{
 	image_speed = 1;
 	return false;
+	
   }
 }
 	function create_screen_pause(_time=3)
@@ -65,6 +67,8 @@ draw_sprite_ext(weapon.sprite,0,x+_xOffset	,centerY+_yOffset,1,_weaponYscl,aimDi
 		 iframeTimer =0;
 		 iframesNumber=90;
 	 }
+	 
+	  
 
 /////tạo danh sách thiệt hại
 if _iframes == false
@@ -77,6 +81,8 @@ damageList = ds_list_create();
 	///sự kiện giải phóng thiệt hại
 	function get_damaged_leanup()
 	{
+		
+	
 		///KHONG cần nếu chúng tôi đang sử dụng iframe
 		
 		///xóa cấu trúc dữ liệu danh sách thiệt hại để giải phóng bộ nhớ
@@ -141,6 +147,15 @@ if place_meeting(x,y,_damageObj)||(_damageObj != oDamageParent&&place_meeting(x,
         ///lấy đối tượng thiệt hại từ danh sách
 		 var _inst = ds_list_find_value (_instList , i );
 		 
+		 
+	
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		 ////kiểm tra xem phiên bản này đã có trong danh sách thiệt hại chưa
 if  _iframes=true ||  ds_list_find_index(damageList,_inst)==-1
 {
@@ -175,10 +190,12 @@ if  _iframes=true ||  ds_list_find_index(damageList,_inst)==-1
 	ds_list_destroy( _instList );
 	
 	
+
+
 }
-
-
 ///xóa danh sách thiệt hại của đối tượng không tồn tại nữa hoặc không chạm vào nữa
+
+
 if _iframes == false {
 var _damageListSize = ds_list_size(damageList);
 for( var i = 0 ; i < _damageListSize; i++)
@@ -197,4 +214,8 @@ for( var i = 0 ; i < _damageListSize; i++)
  hp = clamp(hp,0,maxHp);
  ///tra ve hit confirm gia tri hop le 
  return _hitConfirm;
+ 
 }
+
+
+

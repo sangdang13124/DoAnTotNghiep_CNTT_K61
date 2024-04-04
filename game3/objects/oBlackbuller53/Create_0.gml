@@ -1,5 +1,5 @@
 event_inherited();
-
+damage = 1;
 dir=0;
 spd=5;
 xspd=0;

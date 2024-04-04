@@ -9,4 +9,3 @@ yspd=0;
 maxDist=300;
 destroy=false;
 enemyDistroy = true;
-

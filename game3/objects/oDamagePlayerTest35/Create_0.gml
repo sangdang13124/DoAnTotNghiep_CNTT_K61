@@ -3,4 +3,4 @@ depth=-y;
 
 
 floatDir=0;
-floatSpd=6;
+floatSpd=3;

@@ -143,7 +143,7 @@ if shootKey && shootTimer<=0 && (global.PlayerAmmo[selectedWeapon]>0||weapon==gl
 	
 	/// them hieu ung flash o dau sung
 	create_animated_vfx(sPlash,_weaponTipX,_weaponTipY,depth-10,aimDir);
-	
+	audio_play_sound(Sound1,10,false);
 		 ///tạo đúng số lượng đạn
 	 for(var i=0;  i < weapon.bulletNum;i++){
 

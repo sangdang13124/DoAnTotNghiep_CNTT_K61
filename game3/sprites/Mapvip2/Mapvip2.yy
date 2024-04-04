@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "game3",
-    "path": "game3.yyp",
+    "name": "Map",
+    "path": "folders/Map.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

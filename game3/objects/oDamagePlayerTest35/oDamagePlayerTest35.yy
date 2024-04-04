@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Enemies.yy",
+    "name": "Enemy",
+    "path": "folders/Enemy.yy",
   },
   "parentObjectId": {
     "name": "oDamagePlayer",
