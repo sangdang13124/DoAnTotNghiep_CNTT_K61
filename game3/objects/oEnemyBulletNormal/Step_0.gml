@@ -42,6 +42,6 @@ if hitConfirm ==true && playerDestroy == true {destroy=true;};
 
 //phá hủy chính mình
 if destroy == true {instance_destroy();};
-1111
+
 /// va cham voi tuong
 if place_meeting(x,y, oSolidwall){destroy=true;};

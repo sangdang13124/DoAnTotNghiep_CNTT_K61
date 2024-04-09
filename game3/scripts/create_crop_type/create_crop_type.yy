@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"create_crop_type",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_crop_type",
+  "parent":{
+    "name":"group1",
+    "path":"folders/group1.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

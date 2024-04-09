@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "custom_functions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "group1",
-    "path": "folders/group1.yy",
+  "$GMScript":"",
+  "%Name":"custom_functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"custom_functions",
+  "parent":{
+    "name":"group1",
+    "path":"folders/group1.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

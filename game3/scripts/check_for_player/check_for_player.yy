@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "check_for_player",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "game3",
-    "path": "game3.yyp",
+  "$GMScript":"",
+  "%Name":"check_for_player",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_for_player",
+  "parent":{
+    "name":"all",
+    "path":"folders/all.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
