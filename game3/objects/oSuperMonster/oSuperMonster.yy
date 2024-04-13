@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy",
-    "path":"folders/Enemy.yy",
+    "path":"folders/Farming/Enemy.yy",
   },
   "parentObjectId":{
     "name":"oEnemyParent",

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(room != Room6){ planting = false; exit; }
+
 if(keyboard_check_pressed(ord("P"))){ planting = !planting } 
 
 if(planting){
@@ -21,11 +23,11 @@ if(planting){
 if(instance_exists(obj_crops) and keyboard_check_pressed(ord("G"))){
 	with(obj_crops){
 	if(growthStage < maxGrowthStage){
-	dayOld +=1;
+	daysOld +=1;
 	//sinh truong ngay day tien
 	var firstGrowth = 0 ;
-	if(dayOld > 0){firstGrowth = 1;}
-	growthStage = firstGrowth + (dayOld div growthStageDuration);
+	if(daysOld > 0){firstGrowth = 1;}
+	growthStage = firstGrowth + (daysOld div growthStageDuration);
 	}else{
 		growthStage = maxGrowthStage;
 		fullyGrown = true ;

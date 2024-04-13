@@ -5,7 +5,7 @@ var cs = crops.cellSize;
 var gx = argument0 div cs;
 var gy = argument1 div cs;
 
-var i_grid = crops.ds_crops_instance;
+var i_grid = crops.ds_crops_instances;
 
 var cell = i_grid[# gx,gy];
 if(cell == 0){

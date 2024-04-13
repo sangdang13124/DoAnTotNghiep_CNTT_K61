@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Enemy",
-    "path":"folders/Enemy.yy",
+    "path":"folders/Farming/Enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -2,7 +2,7 @@
   "FolderOrderSettings":[
     {"name":"all","order":32,"path":"folders/all.yy",},
     {"name":"Enemies","order":2,"path":"folders/Enemies.yy",},
-    {"name":"Enemy","order":22,"path":"folders/Enemy.yy",},
+    {"name":"Enemy","order":5,"path":"folders/Farming/Enemy.yy",},
     {"name":"Farming","order":31,"path":"folders/Farming.yy",},
     {"name":"Crops","order":4,"path":"folders/Farming/Crops.yy",},
     {"name":"group1","order":3,"path":"folders/group1.yy",},
@@ -93,6 +93,7 @@
     {"name":"create_crop_type","order":8,"path":"scripts/create_crop_type/create_crop_type.yy",},
     {"name":"custom_functions","order":5,"path":"scripts/custom_functions/custom_functions.yy",},
     {"name":"instance_create_crop","order":9,"path":"scripts/instance_create_crop/instance_create_crop.yy",},
+    {"name":"respawn_crops","order":11,"path":"scripts/respawn_crops/respawn_crops.yy",},
     {"name":"weapon_creation","order":4,"path":"scripts/weapon_creation/weapon_creation.yy",},
     {"name":"Sound1","order":32,"path":"sounds/Sound1/Sound1.yy",},
     {"name":"down","order":18,"path":"sprites/down/down.yy",},

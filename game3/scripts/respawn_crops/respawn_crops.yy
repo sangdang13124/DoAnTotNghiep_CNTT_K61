@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"check_for_playerSlime",
+  "%Name":"respawn_crops",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"check_for_playerSlime",
+  "name":"respawn_crops",
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Farming/Enemy.yy",
+    "name":"group1",
+    "path":"folders/group1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

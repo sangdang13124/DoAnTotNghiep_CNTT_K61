@@ -12,7 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"all","folderPath":"folders/all.yy","name":"all","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Farming/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Farming","folderPath":"folders/Farming.yy","name":"Farming","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Crops","folderPath":"folders/Farming/Crops.yy","name":"Crops","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"group1","folderPath":"folders/group1.yy","name":"group1","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -117,6 +117,7 @@
     {"id":{"name":"create_crop_type","path":"scripts/create_crop_type/create_crop_type.yy",},},
     {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"instance_create_crop","path":"scripts/instance_create_crop/instance_create_crop.yy",},},
+    {"id":{"name":"respawn_crops","path":"scripts/respawn_crops/respawn_crops.yy",},},
     {"id":{"name":"weapon_creation","path":"scripts/weapon_creation/weapon_creation.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"down","path":"sprites/down/down.yy",},},

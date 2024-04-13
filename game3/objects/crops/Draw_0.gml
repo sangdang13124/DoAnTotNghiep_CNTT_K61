@@ -9,7 +9,7 @@ var gy=(my div cs);
 
 var c =c_red;
  
-var cell = ds_crops_instance[# gx,gy]
+var cell = ds_crops_instances[# gx,gy]
  
  if (cell==0){
  
