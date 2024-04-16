@@ -24,6 +24,7 @@ weaponOffsetDist = 4;
 aimDir= 0;
 
 
+
 face = 3 ;
 sprite[0] = sPlayerRight;
 sprite[1] = sPlayerUp;

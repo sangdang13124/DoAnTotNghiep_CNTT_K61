@@ -14,3 +14,11 @@ if(sparkle >= 0){
 		alarm[1] = random_range(4,5)*room_speed;
 	}
 }
+
+////////////////
+
+
+
+
+
+

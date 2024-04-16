@@ -13,4 +13,10 @@ fullyGrown = false;
 sparkle = -1 ;
 
 xx = x-(frameWidth/2)+2
-yy = y-frameHeight+6;
+yy = y-frameHeight+6
+
+
+//////////////////////////
+
+
+

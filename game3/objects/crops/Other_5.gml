@@ -28,5 +28,6 @@ if(room == Room6){
 		}
 	}
 	
+	
 	ds_grid_destroy(ds_crops_instances);
 }

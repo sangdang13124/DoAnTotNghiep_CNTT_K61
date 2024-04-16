@@ -160,3 +160,22 @@ if shootKey && shootTimer<=0 && (global.PlayerAmmo[selectedWeapon]>0||weapon==gl
 
 
 }
+
+
+
+    // Tính toán tọa độ của con trỏ chuột
+  
+	
+
+
+
+//////////////
+
+
+
+
+
+
+
+
+

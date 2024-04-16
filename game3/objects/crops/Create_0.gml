@@ -18,13 +18,13 @@ enum crop{
 	corn
 }
 
-create_crop_type(4,40,"tomato");//tomato
-create_crop_type(3,25,"potato");//potato
-create_crop_type(2,25,"carrot");//carrot
-create_crop_type(4,45,"artichoke");//artichoke
-create_crop_type(3,30,"chili");//chilli
-create_crop_type(2,20,"ground");//gourd
-create_crop_type(5,50,"corn");//corn
+create_crop_type(1,10,"tomato");//tomato
+create_crop_type(2,20,"potato");//potato
+create_crop_type(3,30,"carrot");//carrot
+create_crop_type(4,40,"artichoke");//artichoke
+create_crop_type(5,50,"chili");//chilli
+create_crop_type(6,60,"ground");//gourd
+create_crop_type(7,70,"corn");//corn
 
 planting =false;
 selectCrop =0 ;
