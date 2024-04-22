@@ -18,7 +18,7 @@ if(room == Room6){
 			slot += 1;
 		}
 		
-		with(obj_crops){
+			with(obj_crops){
 			//First growth
 			var firstGrowth = 0;
 			if(daysOld > 0){ firstGrowth = 1; }

@@ -30,6 +30,8 @@
     {"name":"inst_401C4291","path":"rooms/Room6/Room6.yy",},
     {"name":"inst_3726F728","path":"rooms/Room6/Room6.yy",},
     {"name":"inst_516FF959","path":"rooms/Room6/Room6.yy",},
+    {"name":"inst_14C2FBC4","path":"rooms/Room6/Room6.yy",},
+    {"name":"inst_578D9C9","path":"rooms/Room6/Room6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -58,6 +60,8 @@
         {"$GMRInstance":"","%Name":"inst_358F83B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_358F83B6","objectId":{"name":"oSolidwall","path":"objects/oSolidwall/oSolidwall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":3.0,"x":2176.0,"y":128.0,},
         {"$GMRInstance":"","%Name":"inst_401C4291","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_401C4291","objectId":{"name":"oSolidwall","path":"objects/oSolidwall/oSolidwall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":7.0,"x":1392.0,"y":128.0,},
         {"$GMRInstance":"","%Name":"inst_3726F728","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3726F728","objectId":{"name":"oSolidwall","path":"objects/oSolidwall/oSolidwall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":3.0,"x":1376.0,"y":160.0,},
+        {"$GMRInstance":"","%Name":"inst_14C2FBC4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14C2FBC4","objectId":{"name":"oTime","path":"objects/oTime/oTime.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":32.0,},
+        {"$GMRInstance":"","%Name":"inst_578D9C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_578D9C9","objectId":{"name":"crops","path":"objects/crops/crops.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":32.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRLayer":"","%Name":"Folder_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":3,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"$GMRTileLayer":"","%Name":"lever3","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"lever3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":47,"SerialiseWidth":94,"TileCompressedData":[
@@ -151,7 +155,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":350,"hspeed":-1,"hview":350,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":700,"wview":700,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":750,"hspeed":-1,"hview":350,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":3000,"wview":700,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
