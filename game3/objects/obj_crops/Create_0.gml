@@ -18,5 +18,6 @@ yy = y-frameHeight+6
 
 //////////////////////////
 
+harvestable = (growthStage == maxGrowthStage);
 
 

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Farming",
-    "path":"folders/Farming.yy",
+    "name":"Crops",
+    "path":"folders/Farming/Crops.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

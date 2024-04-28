@@ -1,13 +1,44 @@
-/// Xóa cây trồng ở vị trí (x, y)
-function delete_crop_at_position(x, y) {
+
+/// Xóa cây trồng ở vị trí (x, y) và thu hoạch
+function delete_crop_and_harvest(x, y) {
     // Kiểm tra xem có instance của cây trồng ở vị trí (x, y) không
     if (ds_crops_instances[# x, y] != 0) {
         // Xác định instance của cây trồng ở vị trí (x, y)
         var crop_instance = ds_crops_instances[# x, y];
         
+        // Thu hoạch cây trồng nếu nó đã đạt đến giai đoạn tăng trưởng tối đa
+     if (crop_instance.growthStage = crop_instance.maxGrowthStage) {
+            // Tạo một thể hiện mới của đối tượng tương ứng với loại cây được thu hoạch
+            switch (crop_instance.cropType) {
+                case crop.tomato:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oTomato);
+                    break;
+                case crop.potato:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oPotato);
+                    break;
+                case crop.carrot:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oCarrot);
+                    break;
+                case crop.artichoke:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oArtichoke);
+                    break;
+                case crop.chilli:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oChilli);
+                    break;
+                case crop.gourd:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oGourd);
+                    break;
+                case crop.corn:
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oCorn);
+                    break;
+                default:
+                    // Xử lý trường hợp không xác định
+                    break;
+            }
+        }
+        
         // Xóa instance của cây trồng trên màn hình
         instance_destroy(crop_instance);
-		
         
         // Xóa dữ liệu cây trồng trong ds_crops_instances
         ds_crops_instances[# x, y] = 0;
