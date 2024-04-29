@@ -12,7 +12,10 @@
     "name":"group1",
     "path":"folders/Farming/Crops/group1.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item",
+    "path":"objects/obj_item/obj_item.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

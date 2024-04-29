@@ -14,8 +14,8 @@
   "name":"oInventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inventory",
-    "path":"folders/Inventory.yy",
+    "name":"Inventorydemo",
+    "path":"folders/Inventorydemo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

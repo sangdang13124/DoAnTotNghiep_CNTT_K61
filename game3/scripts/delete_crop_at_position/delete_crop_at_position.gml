@@ -11,7 +11,7 @@ function delete_crop_and_harvest(x, y) {
             // Tạo một thể hiện mới của đối tượng tương ứng với loại cây được thu hoạch
             switch (crop_instance.cropType) {
                 case crop.tomato:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oTomato);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, Object88);
                     break;
                 case crop.potato:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oPotato);

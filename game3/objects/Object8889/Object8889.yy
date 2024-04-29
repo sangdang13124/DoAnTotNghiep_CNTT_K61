@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oBazoka",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object8889",
+  "eventList":[],
   "managed":true,
-  "name":"oBazoka",
+  "name":"Object8889",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"Inventory_vip",
+    "path":"folders/Inventory_vip.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item",
+    "path":"objects/obj_item/obj_item.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBazokabullet",
-    "path":"sprites/sBazokabullet/sBazokabullet.yy",
+    "name":"Sprite118119",
+    "path":"sprites/Sprite118119/Sprite118119.yy",
   },
   "spriteMaskId":null,
   "visible":true,
