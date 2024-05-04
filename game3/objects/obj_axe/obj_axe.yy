@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object8889",
+  "%Name":"obj_axe",
   "eventList":[],
   "managed":true,
-  "name":"Object8889",
+  "name":"obj_axe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inventory_vip",
-    "path":"folders/Inventory_vip.yy",
+    "name":"khaithac",
+    "path":"folders/khaithac.yy",
   },
   "parentObjectId":{
     "name":"obj_item",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite118119",
-    "path":"sprites/Sprite118119/Sprite118119.yy",
+    "name":"spr_axe",
+    "path":"sprites/spr_axe/spr_axe.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"item_craft",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_craft",
+  "parent":{
+    "name":"khaithac",
+    "path":"folders/khaithac.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

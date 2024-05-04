@@ -5,7 +5,14 @@ if collision_point(x, y, obj_inventory_cell, 0, 1) {
     if (cell.Object == object_index || cell.Object == noone) {
         cell.Object = object_index;
         cell.Count++;
+		
+		if instance_exists(obj_crafting_cell){
+			obj_crafting_cell.alarm[0] =1;
+		}
+		
+		
         instance_destroy();
+		exit;
     }
 } else {
     if (collision_point(x, y, obj_item, 0, 1)) {

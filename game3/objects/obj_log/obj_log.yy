@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object88",
+  "%Name":"obj_log",
   "eventList":[],
   "managed":true,
-  "name":"Object88",
+  "name":"obj_log",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory_vip",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite118",
-    "path":"sprites/Sprite118/Sprite118.yy",
+    "name":"spr_log",
+    "path":"sprites/spr_log/spr_log.yy",
   },
   "spriteMaskId":null,
   "visible":true,

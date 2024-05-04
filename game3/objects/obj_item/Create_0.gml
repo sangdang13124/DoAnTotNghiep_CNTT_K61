@@ -1,3 +1,3 @@
 Count = 1;
 Dragging = false;
-DraggingRadius = 100;
+DraggingRadius = 1000;

@@ -20,7 +20,7 @@ var Buff = buffer_load("Chest"+string(Number));
 	obj.Parent = id;
 	
 	if FirstOpen == false{
-		obj.Object = choose(noone,Object88,Object8889);
+		obj.Object = choose(noone,obj_log,obj_rock);
 		obj.Count = irandom_range(1,10);
 	}else{
 		var numb = buffer_read(ChestBuffer,buffer_u8);
@@ -29,7 +29,7 @@ var Buff = buffer_load("Chest"+string(Number));
 		if obj.Number==numb{
 			if asset_get_index(_obj) !=-1{
 				obj.Object = asset_get_index(_obj);
-				obj.Count =count;
+				obj.Count = count;
 			}
 		}	
 }
