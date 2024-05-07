@@ -1,4 +1,4 @@
-if distance_to_object(oPlayer) < DraggingRadius {
+if distance_to_object(obj_player) < DraggingRadius {
 	Dragging= true;
 }
 

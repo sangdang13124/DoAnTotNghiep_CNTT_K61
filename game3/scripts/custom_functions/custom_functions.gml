@@ -1,4 +1,7 @@
 
+
+
+
 function draw_my_weapon(){
 ///draw the weapon
 ///lấy vũ khí ra khỏi người chơi là cơ thể

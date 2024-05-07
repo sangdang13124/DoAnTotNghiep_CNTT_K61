@@ -6,7 +6,7 @@ var _camY = camera_get_view_y(view_camera[0]);
 var _border =8;
 var _hudX =_camX+_border;
 var _hudY =_camY+_border;
-if instance_exists(oPlayer)
+if instance_exists(obj_player)
 {
 
 draw_sprite( sHealthbar , 0, _hudX, _hudY);
@@ -22,11 +22,11 @@ draw_sprite(sHealthbar,_img,_hudX+_sep*i,_hudY);
   }
   var _offset=8;
   var _Offset = _offset;
-  if oPlayer.aimDir < 360 && oPlayer.aimDir > 270{_Offset = -_Offset;}
-   if oPlayer.aimDir < 135 && oPlayer.aimDir > 45{_Offset = -_Offset;}
-  var _ammoX =oPlayer.x+  _Offset;
-  var _ammoY =oPlayer.y+  _offset;
-  draw_text_transformed(_ammoX,_ammoY,string(global.PlayerAmmo[oPlayer.selectedWeapon]),0.5,0.5,0);
+  if obj_player.aimDir < 360 && obj_player.aimDir > 270{_Offset = -_Offset;}
+   if obj_player.aimDir < 135 && obj_player.aimDir > 45{_Offset = -_Offset;}
+  var _ammoX =obj_player.x+  _Offset;
+  var _ammoY =obj_player.y+  _offset;
+  draw_text_transformed(_ammoX,_ammoY,string(global.PlayerAmmo[obj_player.selectedWeapon]),0.5,0.5,0);
   
 }
 // ve ra so quai bi giet

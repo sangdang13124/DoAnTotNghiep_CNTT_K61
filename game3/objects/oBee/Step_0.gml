@@ -1,8 +1,8 @@
 // Step Event của đối tượng muốn bay vào (ví dụ đối tượng enemy)
-if (instance_exists(oPlayer)){
+if (instance_exists(obj_player)){
 var maxDist = 100; // Khoảng cách tối đa để đối tượng bay vào
-var targetX = oPlayer.x; // Điểm đích là vị trí của đối tượng bạn muốn bay vào
-var targetY = oPlayer.y;
+var targetX = obj_player.x; // Điểm đích là vị trí của đối tượng bạn muốn bay vào
+var targetY = obj_player.y;
 
 // Kiểm tra khoảng c giữa đối tượng muốn bay vào và đối tượng bay (ví dụ đối tượng enemy)
 var dist = point_distance(x, y, targetX, targetY);

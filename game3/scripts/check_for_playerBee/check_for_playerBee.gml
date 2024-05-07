@@ -1,5 +1,5 @@
 function check_for_playerBee(){
-var _dir = distance_to_object(oPlayer);
+var _dir = distance_to_object(obj_player);
 //// vao pham vi tan cong cua quai vat  va ngoai pahm vi quuai vat tan cong
 
 if ((_dir <= alert_dis) or alert)and _dir>attack_dis{
@@ -12,7 +12,7 @@ alert = true;
 if calc_path_time-- <=0{
 	calc_path_time =calc_path_delay;
 
-var _player = instance_find(oPlayer, 0);
+var _player = instance_find(obj_player, 0);
 if _player != noone {
     var _found_player = mp_grid_path(global.mp_gird, path, x, y, _player.x, _player.y, choose(0, 1));
 

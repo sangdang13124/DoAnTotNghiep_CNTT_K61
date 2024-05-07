@@ -25,7 +25,7 @@ if Resources[0] >=   CRAFTS[Number ,1]
   }
 }
 if NeedResource[0] == 0  &&  NeedResource[1] == 0{
-	instance_create_depth(oPlayer.x+16 , oPlayer.y+8 , -1 ,CRAFTS[Number,0]);
+	instance_create_depth(obj_player.x+16 , obj_player.y+8 , -1 ,CRAFTS[Number,0]);
  NeedResource = [
 CRAFTS[Number , 1],
 CRAFTS[Number , 2]

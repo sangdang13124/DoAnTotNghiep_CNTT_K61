@@ -43,9 +43,9 @@ depth =-y;
  if point_distance(xstart,ystart,x,y)>maxDist{
 	 
 	 
-	  if instance_exists(oPlayer)
+	  if instance_exists(obj_player)
 	 {
-		 dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+		 dir = point_direction(x,y,obj_player.x,obj_player.y);
 		 	
 
   }
@@ -54,5 +54,5 @@ depth =-y;
 	
 	//destroy=true;
  };
- if place_meeting(x,y,oPlayer){destroy = true;};
+ if place_meeting(x,y,obj_player){destroy = true;};
 //destroy

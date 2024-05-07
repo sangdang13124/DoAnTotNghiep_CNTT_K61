@@ -21,7 +21,7 @@ var Buff = buffer_load("Chest"+string(Number));
 	
 	if FirstOpen == false{
 		obj.Object = choose(noone,obj_log,obj_rock);
-		obj.Count = irandom_range(1,10);
+		obj.Count = irandom_range(1,7);
 	}else{
 		var numb = buffer_read(ChestBuffer,buffer_u8);
 		var _obj = buffer_read(ChestBuffer,buffer_string);

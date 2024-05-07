@@ -7,10 +7,10 @@ y=ystart+dsin(floatDir)*5;
 
 
 
-if place_meeting(x,y,oPlayer)
+if place_meeting(x,y,obj_player)
 {
 	// hoi mau
-	oPlayer.hp+=heal;
+	obj_player.hp+=heal;
 	///bien mat khi nguoi choi an mau
 	instance_destroy();
 }

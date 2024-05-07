@@ -28,7 +28,7 @@ for(var i = 0; i < _size ;i++)
 }
 
 ///thêm vũ khí vào danh sách người chơi
-if place_meeting(x,y,oPlayer)
+if place_meeting(x,y,obj_player)
 {
 	
 if !_playerHas 
@@ -42,7 +42,7 @@ array_push(global.PlayerAmmo,0);
 global.PlayerAmmo[array_length(global.PlayerAmmo)-1]+=ammoAdd;
 
 ///đặt làm vũ khí của người chơi
-oPlayer.selectedWeapon = array_length(global.PlayerWeapons)-1;
+obj_player.selectedWeapon = array_length(global.PlayerWeapons)-1;
 
 
 

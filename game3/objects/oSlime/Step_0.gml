@@ -33,9 +33,9 @@ switch(state)
 	/// trang thai ruot duoi
 	case 0:
 	
-	if instance_exists(oPlayer)
+	if instance_exists(obj_player)
 {
-dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+dir = point_direction(x,y,obj_player.x,obj_player.y);
 }
 ////đặt đúng tốc độ
 spd = chaseSpd;
@@ -50,9 +50,9 @@ spd = chaseSpd;
 ////trạng thái tạm dừng và bắn
 case 1:
 #region
-	if instance_exists(oPlayer)
+	if instance_exists(obj_player)
 {
-dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+dir = point_direction(x,y,obj_player.x,obj_player.y);
 }
 ///đặt đúng tốc độ
 spd=0;

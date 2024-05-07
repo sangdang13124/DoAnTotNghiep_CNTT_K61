@@ -6,9 +6,9 @@ switch( state)
 {
 	 case 0:
 	 ///trạng thá đợi kẻ thù bắn 
-	 if instance_exists(oPlayer)
+	 if instance_exists(obj_player)
 	 {
-		 dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+		 dir = point_direction(x,y,obj_player.x,obj_player.y);
 	 }
 	 
 	 //đặt độ sâu để làm cho bản thân tôi rõ hơn

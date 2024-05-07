@@ -1,4 +1,4 @@
-if place_meeting(x,y,oPlayer) && !instance_exists(Object42)
+if place_meeting(x,y,obj_player) && !instance_exists(Object42)
 {
 var inst =instance_create_depth(0,0,-900000,Object42);
 inst.target_x=target_x;

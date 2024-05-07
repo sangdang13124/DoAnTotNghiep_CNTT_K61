@@ -1,8 +1,8 @@
 ///lay thong tin mau cua nguoi choi
-if instance_exists(oPlayer)
+if instance_exists(obj_player)
 {
-	playerHP = oPlayer.hp;
-	playerMaxHp = oPlayer.maxHp;
+	playerHP = obj_player.hp;
+	playerMaxHp = obj_player.maxHp;
 }else{
 	playerHP=0;
 }

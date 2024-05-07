@@ -3,10 +3,10 @@ var _camW = camera_get_view_width(view_camera[0]);
 var _camH = camera_get_view_height(view_camera[0]);
 
 ///tập trung vào người chơi
-if instance_exists(oPlayer)
+if instance_exists(obj_player)
 {
-	x= oPlayer.x -_camW/2;
-	y= oPlayer.centerY  -_camH/2;
+	x= obj_player.x -_camW/2;
+	y= obj_player.centerY  -_camH/2;
 }
 
 	

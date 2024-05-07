@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inventoty_cell",
-    "path":"sprites/spr_inventoty_cell/spr_inventoty_cell.yy",
+    "name":"spr_inventory_cell",
+    "path":"sprites/spr_inventory_cell/spr_inventory_cell.yy",
   },
   "spriteMaskId":null,
   "visible":true,
