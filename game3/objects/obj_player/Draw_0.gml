@@ -4,12 +4,13 @@ draw_self();
 
 if (Item != noone && sprite_exists(ItemSprite)) {
     if (moveDir != 0) {
-		draw_sprite_ext(ItemSprite, image_index, x+8 * sign(moveDir), y , 1 * sign(moveDir), 1, 0, c_white, 1);
+		
 
-        
+        draw_sprite_ext(ItemSprite, image_index, x+8 * sign(moveDir), y , 1 * sign(moveDir), 1, 0, c_white, 1);
     } else {
         	draw_sprite_ext(ItemSprite, image_index, x+8 , y , 1, 1, 0, c_white, 1);
-    }
+	// draw_sprite_ext(ItemSprite, image_index, x+8 * sign(moveDir), y , 1 * sign(moveDir), 1, 0, c_white, 1);
+   }
 }
 
 }

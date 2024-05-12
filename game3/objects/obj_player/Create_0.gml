@@ -46,3 +46,11 @@ weapon= global.PlayerWeapons[selectedWeapon];
 Item = noone;
 ItemSprite = noone;
 ItemPrevSprite = ItemSprite;
+
+//speed1 = 40;
+Health1 = 1000;
+Hunger = 1000;
+Thirst = 1000;
+
+alarm[4] = 2 ;
+alarm[5] = 2 ;

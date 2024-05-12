@@ -52,9 +52,11 @@ if Dragging == true {
             x = obj_player.x + irandom_range(-DraggingRadius, DraggingRadius);
             y = obj_player.y + irandom_range(-DraggingRadius, DraggingRadius);
         } else {
+			
             obj_player.Item = noone; // Gán giá trị noone cho obj_player.Item
+			 }
         }
     }
-}
+
 
 Dragging = false;

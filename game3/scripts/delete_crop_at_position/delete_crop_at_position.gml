@@ -11,25 +11,25 @@ function delete_crop_and_harvest(x, y) {
             // Tạo một thể hiện mới của đối tượng tương ứng với loại cây được thu hoạch
             switch (crop_instance.cropType) {
                 case crop.tomato:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oTomato);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_tomato);
                     break;
                 case crop.potato:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oPotato);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_potato);
                     break;
                 case crop.carrot:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oCarrot);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_carrot);
                     break;
                 case crop.artichoke:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oArtichoke);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_artichoke);
                     break;
                 case crop.chilli:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oChilli);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_chilli);
                     break;
                 case crop.gourd:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oGourd);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_gourd);
                     break;
                 case crop.corn:
-                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, oCorn);
+                    instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_corn);
                     break;
                 default:
                     // Xử lý trường hợp không xác định

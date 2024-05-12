@@ -1,4 +1,6 @@
 
+
+
 ///nhận đầu vào
 rightKey = global.rightKey;
 leftKey = global.leftKey;
