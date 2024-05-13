@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 if Parent == "Player"{
 // Lấy các giá trị của chế độ xem hiện tại từ camera
 var vx = camera_get_view_x(view_camera[view_current]);
@@ -7,28 +9,21 @@ var vh = camera_get_view_height(view_camera[view_current]);
 
  
 // Tính toán tọa độ x cho đối tượng
-x =(CELLSIZE /2)) + (vx + vw / 2) - (Cells / 2)*CELLSIZE)+CELLSIZE)*Number ;
-y = (vy + vh) - CELLSIZE);
+x = (vx + vw ) -600;
+y = (vy + vh) - 30;
 
 
-if (IsLastCell) {
-        draw_set_color(c_red); // Thay đổi màu fill thành màu đỏ
 
-
-draw_sprite(spr_use, 0, x, y);
-
-    }
-// Vẽ đối tượng
 
 }
 
 
+// Vẽ đối tượng
 draw_self();
 
 
-if Object != noone{
-draw_set_font(fo_text);
-draw_sprite(object_get_sprite(Object),0,x,y);
-draw_text(x+5,y+3,Count);
-}
+    
+
+
+
 

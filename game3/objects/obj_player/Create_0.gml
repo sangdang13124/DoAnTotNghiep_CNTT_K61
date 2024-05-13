@@ -53,4 +53,4 @@ Hunger = 1000;
 Thirst = 1000;
 
 alarm[4] = 2 ;
-alarm[5] = 2 ;
+alarm[5] = 2;

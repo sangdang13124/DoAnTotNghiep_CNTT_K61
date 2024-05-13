@@ -14,7 +14,7 @@ Count = 0;
 Parent = noone;
 Cells = 0;
 
-Parent1 = noone;
+
 // Đặt báo động cho obj_inventory_cell
 obj_inventory_cell.alarm[0] = 1;
 
