@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"item_craft",
   "parent":{
-    "name":"khaithac",
-    "path":"folders/khaithac.yy",
+    "name":"Congthucchetao",
+    "path":"folders/Congthucchetao.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

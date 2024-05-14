@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fo_text",
   "parent":{
-    "name":"khaithac",
-    "path":"folders/khaithac.yy",
+    "name":"Congthucchetao",
+    "path":"folders/Congthucchetao.yy",
   },
   "pointRounding":0,
   "ranges":[

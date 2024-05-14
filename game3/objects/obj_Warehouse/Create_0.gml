@@ -34,7 +34,7 @@ obj_inventory_cell.alarm[0] = 1;
 
 Type = "resources";
 
- 
+ depth =-1000;
 
 
 

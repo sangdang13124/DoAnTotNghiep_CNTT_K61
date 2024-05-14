@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 if Parent == "Player"{
 // Lấy các giá trị của chế độ xem hiện tại từ camera
 var vx = camera_get_view_x(view_camera[view_current]);
@@ -14,12 +16,12 @@ y = (vy + vh) - 30;
 
 
 
-
 }
-
 
 // Vẽ đối tượng
 draw_self();
+
+
 
 
     

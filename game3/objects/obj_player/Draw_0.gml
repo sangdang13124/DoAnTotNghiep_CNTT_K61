@@ -1,9 +1,12 @@
 
+if room == RoomShop{
+draw_self();
+
+}
 
 
 
-
-if room ==Room6{
+if room ==Room6 {
 draw_self();
 
 if (Item != noone && sprite_exists(ItemSprite)) {
