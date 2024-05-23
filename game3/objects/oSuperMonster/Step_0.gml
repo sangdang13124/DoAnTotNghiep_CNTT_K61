@@ -90,7 +90,7 @@ if sprite_index !=sSuperAttackSkill
 }
 if sprite_index==sSuperAttackSkill && floor(image_index)== attackFrame && !attackTriggered
 {
-	  instance_create_depth(x,y,depth,oUsung);
+	 
 	   instance_create_depth(x,y,depth,oBoosBee);
 
 	attackTriggered=true;
@@ -170,8 +170,8 @@ if place_meeting(x , y + yspd , oWall) {yspd = 0;}
 }
 
 /// di chuyen
- //x += xspd;
- //y += yspd;
+ x += xspd;
+ y += yspd;
  ///đặt độ sâu
  depth=-y;
 

@@ -24,6 +24,10 @@ weaponOffsetDist = 4;
 aimDir= 0;
 
 
+// Vị trí con trỏ chuột
+
+
+
 
 face = 3 ;
 sprite[0] = sPlayerRight;

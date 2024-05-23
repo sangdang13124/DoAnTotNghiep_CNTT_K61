@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"register_account",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"register_account",
+  "parent":{
+    "name":"login",
+    "path":"folders/login.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

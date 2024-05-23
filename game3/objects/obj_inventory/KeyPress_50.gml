@@ -1,21 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.InventoryBuffer = buffer_load("buf");
+global.InventoryBuffer = buffer_create(256,buffer_grow,1);
+#macro INVBUFFER     global.InventoryBuffer
 
 
 
-for(var i = 0 ;i < instance_number(obj_inventory_cell);i++){
-	buffer_seek(global.InventoryBuffer, buffer_seek_start,0);
-	with(obj_inventory_cell){
-		var numb = buffer_read(global.InventoryBuffer,buffer_u8);
-		var obj = buffer_read(global.InventoryBuffer,buffer_string);
-		var count = buffer_read(global.InventoryBuffer,buffer_u8);
-		if Number == numb{
-			if asset_get_index(obj) !=-1{
-				Object = asset_get_index(obj);
-				Count = count;
-			}
-		}
-	}
+with(obj_inventory_cell){
+	buffer_write(INVBUFFER,buffer_u8,Number);
+	buffer_write(INVBUFFER,buffer_string,object_get_name(Object));
+	buffer_write(INVBUFFER,buffer_u8,Count);
+	buffer_save(INVBUFFER,"buf");
 }
 

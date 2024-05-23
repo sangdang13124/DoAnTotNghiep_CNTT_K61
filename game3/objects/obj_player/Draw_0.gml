@@ -1,5 +1,10 @@
 
-if room == RoomShop{
+if room == Room3{
+draw_self();
+
+}
+
+if room == Room5{
 draw_self();
 
 }
@@ -22,7 +27,7 @@ if (Item != noone && sprite_exists(ItemSprite)) {
 
 }
 
-if room ==Room4{
+if room == Room4 || room == Room3 || room == Room5{
 //rút vũ khí phía sau người chơi
 if aimDir >=0 && aimDir<180
 {

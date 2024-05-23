@@ -6,7 +6,7 @@
  if (Activate){
 	for(var i = 0 ; i < Width ; i++){
 	
-	var obj = instance_create_depth(x+CELLSIZE)/2 -((Width*CELLSIZE))/2)+(i*CELLSIZE)),y- CELLSIZE),-1,obj_crafting_vegetable_cell);
+	var obj = instance_create_depth(x+(CELLSIZE)/2 -((Width*CELLSIZE))/2)+(i*CELLSIZE)))-150,y- CELLSIZE),-1,obj_crafting_vegetable_cell);
 	obj.Number = i;
 	obj.Parent = id;
 	Cells[array_length(Cells)] = obj; 

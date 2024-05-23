@@ -58,6 +58,8 @@ FirstOpen = true;
 	 }
 	 instance_destroy(Cells[i]);
  }
+ 
  buffer_save(ChestBuffer,"Warehouse"+ string(Number));
  buffer_delete(ChestBuffer);
+ 
  } 
