@@ -1,20 +1,20 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// create obj_Warehouse
 FirstOpen = false;
 Width = 7; // Số lượng ô ngang
 Height = 5; // Số lượng ô dọc
 image_speed = 0;
 Activate = false;
- 
- var Buff = buffer_load("Warehouse"+string(Number));
- if Buff = -1{
-	 FirstOpen = false;
-	 ChestBuffer = buffer_create(128,buffer_grow,1);
- }else{
-	 FirstOpen = true;
-	 ChestBuffer = Buff;
- }
- Cells = [];
+
+var file_name = "Warehouse_" + global.logged_in_user + ".bin"; // Sử dụng tên tệp dựa trên tên đăng nhập
+var Buff = buffer_load(file_name);
+if (Buff == -1) {
+    FirstOpen = false;
+    ChestBuffer = buffer_create(128, buffer_grow, 1);
+} else {
+    FirstOpen = true;
+    ChestBuffer = Buff;
+}
+Cells = [];
  
 /////////////////
 

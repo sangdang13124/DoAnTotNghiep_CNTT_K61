@@ -1,1 +1,0 @@
-InventoryRemove(id,1);

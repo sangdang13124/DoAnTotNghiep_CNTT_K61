@@ -1,5 +1,5 @@
 function check_login() {
-    var file_path = get_open_filename("Text Files (*.txt)|*.txt", "accounts.txt"); // Sử dụng hộp thoại để chọn tệp để mở
+    var file_path = get_open_filename("Text Files (*.txt)|*.txt", "accounts.txt"); 
     show_debug_message("File path: " + file_path);
 
     if (file_path != "") {
@@ -14,6 +14,7 @@ function check_login() {
                 var account_info = string_split(line, "|");
                 if (account_info[0] == username && account_info[1] == password) {
                     valid_login = true;
+                    global.logged_in_user = username; // Lưu tên đăng nhập
                     break;
                 }
             }

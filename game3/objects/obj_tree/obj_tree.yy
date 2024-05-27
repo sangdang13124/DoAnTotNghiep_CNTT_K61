@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"khaithac",
-    "path":"folders/khaithac.yy",
+    "path":"folders/Inventory_vip/khaithac.yy",
   },
   "parentObjectId":null,
   "persistent":false,
