@@ -18,8 +18,6 @@ Cells = [];
  
 /////////////////
 
-
-
 IsLastCell = true
 Number = 0;
 Object = noone;
@@ -35,9 +33,3 @@ obj_inventory_cell.alarm[0] = 1;
 Type = "resources";
 
  depth =-1000;
-
-
-
-
-
-

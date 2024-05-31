@@ -51,4 +51,3 @@ if(instance_exists(obj_crops) and keyboard_check_pressed(ord("G"))){
 }	
 
 
-

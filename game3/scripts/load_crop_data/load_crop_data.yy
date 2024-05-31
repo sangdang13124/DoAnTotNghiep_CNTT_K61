@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"check_for_playerSlime",
+  "%Name":"load_crop_data",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"check_for_playerSlime",
+  "name":"load_crop_data",
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Enemies/Enemy.yy",
+    "name":"group1",
+    "path":"folders/group1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

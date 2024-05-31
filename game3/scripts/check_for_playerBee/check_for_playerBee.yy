@@ -6,7 +6,7 @@
   "name":"check_for_playerBee",
   "parent":{
     "name":"Enemy",
-    "path":"folders/Farming/Enemy.yy",
+    "path":"folders/Enemies/Enemy.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
