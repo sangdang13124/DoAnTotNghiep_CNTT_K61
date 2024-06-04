@@ -18,17 +18,28 @@ var _img =1;
 if i+1 <= playerHP {_img=2;};
 
 var _sep=3;
+
 draw_sprite(sHealthbar,_img,_hudX+_sep*i,_hudY);
   }
-  var _offset=8;
-  var _Offset = _offset;
-  if obj_player.aimDir < 360 && obj_player.aimDir > 270{_Offset = -_Offset;}
-   if obj_player.aimDir < 135 && obj_player.aimDir > 45{_Offset = -_Offset;}
-  var _ammoX =obj_player.x+  _Offset;
-  var _ammoY =obj_player.y+  _offset;
-  draw_text_transformed(_ammoX,_ammoY,string(global.PlayerAmmo[obj_player.selectedWeapon]),0.5,0.5,0);
+//  var _offset=8;
+//  var _Offset = _offset;
+//  if obj_player.aimDir < 360 && obj_player.aimDir > 270{_Offset = -_Offset;}
+//  if obj_player.aimDir < 135 && obj_player.aimDir > 45{_Offset = -_Offset;}
+//  var _ammoX =obj_player.x+  _Offset;
+//  var _ammoY =obj_player.y+  _offset;
+//  draw_text_transformed(_ammoX,_ammoY,string(global.PlayerAmmo[obj_player.selectedWeapon]),0.5,0.5,0);
+  
+  
+var _ammoX = 100; // Tọa độ x để vẽ số đạn
+var _ammoY = 200; // Tọa độ y để vẽ số đạn
+
+draw_text_transformed(_ammoX, _ammoY, string(global.PlayerAmmo[obj_player.selectedWeapon]), 0.5, 0.5, 0);
   
 }
+
+
+
+
 // ve ra so quai bi giet
 var _enemyCountOffset = 24 ;
 var _ecHudX=_hudX;

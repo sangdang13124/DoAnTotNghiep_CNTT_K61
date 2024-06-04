@@ -15,6 +15,9 @@ _weaponYscl	= -1 ;
 }
 draw_sprite_ext(weapon.sprite,0,x+_xOffset	,centerY+_yOffset,1,_weaponYscl,aimDir,c_white,image_alpha);
 }
+
+
+
 	
 	///vfx
 	function screen_pause()
@@ -46,6 +49,8 @@ draw_sprite_ext(weapon.sprite,0,x+_xOffset	,centerY+_yOffset,1,_weaponYscl,aimDi
 			yShakeAmount=_amount;
 		}
 	}
+	
+	
 	function create_animated_vfx(_sprite,_x,_y,_depth,_rot=0)
 	{
 		with(instance_create_depth(_x,_y,_depth,oAnimatedVFX))

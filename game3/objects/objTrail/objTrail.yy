@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_AnimationDown",
-  "eventList":[],
+  "%Name":"objTrail",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_AnimationDown",
+  "name":"objTrail",
   "overriddenProperties":[],
   "parent":{
     "name":"group1",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerDown1",
-    "path":"sprites/sPlayerDown1/sPlayerDown1.yy",
+    "name":"spr_Trail",
+    "path":"sprites/spr_Trail/spr_Trail.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -47,6 +47,43 @@ _spd = moveSpd * _inputLevel;
 xspd = lengthdir_x(_spd, moveDir);
 yspd = lengthdir_y(_spd, moveDir);
 
+if (keyboard_check_pressed(vk_space) && dashCooldownCounter <= 0) {
+    dashCounter = dashTime;
+    dashDir = moveDir;
+    dashCooldownCounter = dashCooldown;
+    dashDistance = 2 * 32; // 2 ô, giả sử mỗi ô có kích thước 32 pixels
+    dashStepX = lengthdir_x(dashDistance / dashTime, dashDir);
+    dashStepY = lengthdir_y(dashDistance / dashTime, dashDir);
+}
+
+/// Lướt
+if (dashCounter > 0) {
+    // Tạo bóng mờ mỗi bước di chuyển
+    instance_create_depth(x, y, depth + 1, objTrail);
+    
+    // Di chuyển nhân vật dần dần
+    var newX = x + dashStepX;
+    var newY = y + dashStepY;
+    
+    // Kiểm tra va chạm với oWall
+    if (!place_meeting(newX, newY, oWall)) {
+        x = newX;
+        y = newY;
+        dashCounter--;
+    } else {
+        // Nếu va chạm với oWall, hủy lướt ngay lập tức
+        dashCounter = 0;
+        dashCooldownCounter = 0;
+    }
+} else {
+    dashCooldownCounter--;
+}
+
+
+
+
+
+
 /// Va chạm
 if place_meeting(x + xspd, y, oWall) {
     xspd = 0;
@@ -74,7 +111,8 @@ aimDir = point_direction(x, centerY, mouse_x, mouse_y);
 face = round(aimDir / 90);
 if face == 4 { face = 0; };
 
-/// Thay đổi sprite khi đứng yên theo hướng con trỏ chuột
+
+// Kiểm tra và đặt sprite
 if xspd == 0 && yspd == 0 {
     if aimDir >= 45 && aimDir < 135 {
         sprite_index = sPlayerUp1;
@@ -85,10 +123,11 @@ if xspd == 0 && yspd == 0 {
     } else {
         sprite_index = sPlayerRight1;
     }
-    image_index = 0;
+    image_speed = 0.6; // Đảm bảo rằng animation chạy với tốc độ chậm khi đứng yên
 } else {
     mask_index = sprite[3];
     sprite_index = sprite[face];
+    image_speed = 1; // Đặt tốc độ animation bình thường khi di chuyển
 }
 #endregion
 

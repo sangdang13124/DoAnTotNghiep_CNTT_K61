@@ -26,9 +26,6 @@ aimDir= 0;
 
 // Vị trí con trỏ chuột
 
-
-
-
 face = 3 ;
 sprite[0] = sPlayerRight;
 sprite[1] = sPlayerUp;
@@ -58,3 +55,16 @@ Thirst = 1000;
 
 alarm[4] = 2 ;
 alarm[5] = 2;
+
+
+// Biến lướt
+// obj_player Create Event
+moveSpd = 2; // Tốc độ di chuyển bình thường của người chơi
+dashTime = 20; // Thời gian lướt (số bước)
+dashCooldown = 10; // Thời gian hồi chiêu lướt
+dashCounter = 0; // Bộ đếm thời gian lướt ban đầu
+dashCooldownCounter = 0; // Bộ đếm thời gian hồi chiêu ban đầu
+dashDistance = 4 * 32; // Khoảng cách lướt (2 ô, giả sử mỗi ô có kích thước 32 pixels)
+dashStepX = 0; // Bước lướt theo trục X
+dashStepY = 0; // Bước lướt theo trục Y
+dashDir = 0; // Hướng lướt
