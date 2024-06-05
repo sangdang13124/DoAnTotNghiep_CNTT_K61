@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMonsterZbBoss",
-    "path":"sprites/sMonsterZbBoss/sMonsterZbBoss.yy",
+    "name":"zombie",
+    "path":"sprites/zombie/zombie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

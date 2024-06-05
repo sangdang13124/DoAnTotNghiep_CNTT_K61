@@ -11,4 +11,9 @@ global.totaEnemiesSpawned = 0;
 global.enemyKillCount = 1000;
 
 
+///tien
+// Sự kiện Create của obj_controller:
+global.money = 400; // Số tiền khởi đầu của người chơi
+
+
 

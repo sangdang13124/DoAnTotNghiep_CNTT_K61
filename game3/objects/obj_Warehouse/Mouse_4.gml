@@ -29,12 +29,16 @@ if (Activate) {
                     if (asset_get_index(_obj) != -1) {
                         obj.Object = asset_get_index(_obj);
                         obj.Count = count;
+						
+				
                     }
                 }
             }
             Cells[array_length(Cells)] = obj;
         }
     }
+	
+	
     FirstOpen = true;
 } else {
     buffer_seek(ChestBuffer, buffer_seek_start, 0);
