@@ -1,5 +1,12 @@
 
 ///vẽ tự lật ngay lập tức
+if keyboard_check(ord("B")){
+	draw_path(path,x,y,0);
+}
+draw_self();
+
+
+
 
 draw_sprite_ext(sprite_index,image_index, x , y ,face, image_yscale,image_angle,image_blend,image_alpha);
 

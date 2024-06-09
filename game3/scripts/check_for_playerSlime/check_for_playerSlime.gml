@@ -9,15 +9,11 @@ if ((_dir <= alert_dis) or alert)and _dir>attack_dis{
 	
 //quai vat tan cong
 alert = true;
-
-
 ///ramdom duong duoi cua quai vat
 
 //if screen_pause() {exit;
 	//return;
 	//}
-
-
 	
 var _player = instance_find(obj_player, 0);
 if _player != noone {
@@ -31,6 +27,10 @@ if _found_player{
 }
 }else{
 ///ket thuc tim duong va tan cong
+	if _dir <=attack_dis{
+		
+	path_end();
+	}
 	
 }
 }

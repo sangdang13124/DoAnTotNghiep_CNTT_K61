@@ -27,7 +27,7 @@ if (Item != noone && sprite_exists(ItemSprite)) {
 
 }
 
-//if room == Room4 || room == Room3 || room == Room5{
+if room == Room4 || room == Room3 || room == Room5{
 //rút vũ khí phía sau người chơi
 if aimDir >=0 && aimDir<180
 {
@@ -46,7 +46,7 @@ draw_my_weapon();
 }
 
 
-//}
+}
 var weaponX = 100; // Tọa độ x để vẽ vũ khí
 var weaponY = 100; // Tọa độ y để vẽ vũ khí
 

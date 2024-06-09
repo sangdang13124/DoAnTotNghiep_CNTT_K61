@@ -9,8 +9,8 @@
   "name":"oEnemyBulletNormal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Enemies/Enemy.yy",
+    "name":"Monster",
+    "path":"folders/Enemy_new/Monster.yy",
   },
   "parentObjectId":{
     "name":"oDamagePlayer",

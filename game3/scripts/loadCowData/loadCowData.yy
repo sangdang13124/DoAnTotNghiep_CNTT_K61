@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"loadCowData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"loadCowData",
+  "parent":{
+    "name":"channuoi",
+    "path":"folders/channuoi.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

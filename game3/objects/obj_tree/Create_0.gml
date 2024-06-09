@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-Health1 = 1;
+/// Create Event for obj_tree
+health1 = 10;
+
+image_speed = 0;

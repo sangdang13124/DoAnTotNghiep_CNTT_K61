@@ -17,27 +17,17 @@ state = 0 ;
 fadeSpd=1/15;
 emergeSpd=.25;
 
-
-
-
-
-/// sinh ra tu trong mo
-fadeSpd=1/15;
-emergeSpd=.25;
 ///phục hồi hẹn giờ
-cooldowmTime = 60;
+cooldowmTime =90;
 
 /// ban dan
-shootTimer=  irandom(cooldowmTime);
+shootTimer =  cooldowmTime;
+
 //hẹn giờ 
 windupTimer=40;
-recoverTimer=30;
+recoverTimer=40;
  bulletInst= noone;
- 
- 
-
- 
- 
  
  bulletXoff=5;
  bulletYoff=-8;
+

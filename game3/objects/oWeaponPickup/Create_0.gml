@@ -14,7 +14,7 @@ ammoAdd=10;
 
 if image_index == 0
 {
-weapon= global.WeaponList.black;
+weapon = global.WeaponList.black;
 }
 if image_index == 1
 {
@@ -50,15 +50,6 @@ image_index = 0;
 
 
 
-
-
-
-/*var _size = array_length(global.PlayerWeapons);
-for(var i=0 ; i< _size;i++)
-if weapon == global.PlayerWeapons[i]
-{
-	instance_destroy();
-}
 
 
 

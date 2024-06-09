@@ -1,2 +1,2 @@
-target_x = 2284;
-target_y = 729;
+target_x = 2292;
+target_y = 738;

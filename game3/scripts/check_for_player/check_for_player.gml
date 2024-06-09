@@ -14,7 +14,7 @@ alert = true;
 
 ///ramdom duong duoi cua quai vat
 if calc_path_time-- <=0{
-	calc_path_time =calc_path_delay;
+	calc_path_time = calc_path_delay;
 
 var _player = instance_find(obj_player, 0);
 if _player != noone {

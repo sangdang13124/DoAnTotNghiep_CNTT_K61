@@ -3,6 +3,9 @@
 
 // Trong sự kiện Create của obj_inventory_cell
 // Tạo một đối tượng obj_use
+/// Create Event for obj_global
+
+global.tooltip = noone;
 
 
 

@@ -1,5 +1,5 @@
-target_x=2773;
-target_y=526;
+target_x=902;
+target_y=267;
 target_rm=Room4;
 /*
 target_x=1000;

@@ -14,7 +14,7 @@ Activate = !Activate;
 if (Activate) {
     for (var row = 0; row < Height; row++) {
         for (var col = 0; col < Width; col++) {
-            var obj = instance_create_depth(x + col * CELLSIZE)+150, y + row * CELLSIZE)-200, -1, obj_inventory_cell);
+            var obj = instance_create_depth(x + col * CELLSIZE), y + row * CELLSIZE)-200, -1, obj_inventory_cell);
             obj.Number = col; // Gán số thứ tự cột cho ô cell
             obj.Parent = id; // Gán id của đối tượng chứa bảng cell cho ô cell
 

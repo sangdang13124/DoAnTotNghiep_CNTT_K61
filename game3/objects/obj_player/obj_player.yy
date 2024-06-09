@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerDown",
-    "path":"sprites/sPlayerDown/sPlayerDown.yy",
+    "name":"sPlayerRight1",
+    "path":"sprites/sPlayerRight1/sPlayerRight1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

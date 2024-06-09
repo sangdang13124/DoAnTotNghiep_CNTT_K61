@@ -25,10 +25,20 @@ draw_sprite(spr_use, 0, x, y);
 
 draw_self();
 
+/// Draw Event for obj_inventory_cell
+//... (code vẽ hiện tại)
 
-if Object != noone{
-draw_set_font(fo_text);
-draw_sprite(object_get_sprite(Object),0,x,y);
-draw_text(x+5,y+3,Count);
+if (Object != noone) {
+    draw_set_font(fo_text);
+    draw_sprite(object_get_sprite(Object), 0, x, y);
+    draw_text(x + 5, y + 3, Count);
+    
+    // Nếu Object là obj_tomato và tooltip tồn tại, cập nhật vị trí tooltip
+    if (Object == obj_tomato && instance_exists(obj_tooltip)) {
+        with (obj_tooltip) {
+            x = mouse_x;
+            y = mouse_y;
+        }
+    }
 }
 

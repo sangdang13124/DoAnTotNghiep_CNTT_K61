@@ -97,8 +97,10 @@ if shootTimer==1
 ///giữ viên đạn trong tay quái vật
 if shootTimer<= windupTimer && instance_exists(bulletInst)
 {
+	
 	bulletInst.x = x + bulletXoff*face;
 	bulletInst.y = y + bulletYoff;
+	
 }
 
 ///bắn viên đạn sau khi thời gian hen gio kết thúc

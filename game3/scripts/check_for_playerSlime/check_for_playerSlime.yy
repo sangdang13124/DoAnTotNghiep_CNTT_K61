@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"check_for_playerSlime",
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Enemies/Enemy.yy",
+    "name":"Slime",
+    "path":"folders/Enemy_new/Slime.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

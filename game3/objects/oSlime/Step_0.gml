@@ -22,13 +22,7 @@ switch(state)
 	/// di ra ngoai
 	_wallCollisions=false;
 	_getDamage=false;
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	/// trang thai ruot duoi
 	case 0:
@@ -41,9 +35,6 @@ dir = point_direction(x,y,obj_player.x,obj_player.y);
 spd = chaseSpd;
 
 ///chuyển sang trạng thái chụp
-
-
-
 
     break;
 	
@@ -95,10 +86,7 @@ if _wallCollisions == true
 if place_meeting(x + xspd , y, oWall) {xspd = 0;}
 if place_meeting(x , y + yspd , oWall) {yspd = 0;}
 
-		check_for_playerSlime();
-	
-//check_for_playerSlime()
-
+check_for_playerSlime()
 
 ///quai vat va cham voi nhau
 if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}

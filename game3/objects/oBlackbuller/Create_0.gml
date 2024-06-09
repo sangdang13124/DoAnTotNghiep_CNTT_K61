@@ -2,7 +2,7 @@ event_inherited();
 
 damage = 2;
 dir=0;
-spd=5;
+spd=10;
 xspd=0;
 yspd=0;
 ///cleanup
