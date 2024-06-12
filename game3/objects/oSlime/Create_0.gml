@@ -20,7 +20,7 @@ alert =false;
 /// vapo pham vi 160 quai vat se duoi theo ban
 alert_dis=200;
 ////vao pham vi quai vat ngung cham vao ban
-attack_dis=50;
+attack_dis=0;
 
 move_spd =0.5;
 

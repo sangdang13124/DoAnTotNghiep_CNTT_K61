@@ -11,8 +11,8 @@ var vh = camera_get_view_height(view_camera[view_current]);
 
  
 // Tính toán tọa độ x cho đối tượng
-x = (vx + vw )- 70;
-y = (vy + vh) - 50;
+x = (vx + vw )- 90;
+y = (vy + vh) - 60;
 
 
 

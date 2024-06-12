@@ -13,7 +13,7 @@ global.enemyKillCount = 1000;
 
 ///tien
 // Sự kiện Create của obj_controller:
-global.money = 3628; // Số tiền khởi đầu của người chơi
+global.money = 1000; // Số tiền khởi đầu của người chơi
 
 
 

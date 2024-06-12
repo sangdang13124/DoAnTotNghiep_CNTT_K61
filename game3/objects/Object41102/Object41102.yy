@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWarpShop",
-    "path":"sprites/sWarpShop/sWarpShop.yy",
+    "name":"sWarpShop182",
+    "path":"sprites/sWarpShop182/sWarpShop182.yy",
   },
   "spriteMaskId":null,
   "visible":true,

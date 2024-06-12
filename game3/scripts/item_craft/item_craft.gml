@@ -15,3 +15,11 @@ global.Crafts1 =[
 		 
 ]
 #macro CRAFTS1     global.Crafts1
+
+global.Crafts2 =[
+         [obj_tomato ,1,0]
+		 
+]
+#macro CRAFTS2     global.Crafts2
+
+

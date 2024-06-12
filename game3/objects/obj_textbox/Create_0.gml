@@ -1,7 +1,7 @@
 /// Customizable Properties
 
 // Input
-confirm_key = vk_space; // button to press to go to the next page
+confirm_key = vk_f3; // button to press to go to the next page
 up_key = vk_up; // button to press to move up in options
 down_key = vk_down; // button to press to move down in options
 max_input_delay = 5; // how many frames to ignore input

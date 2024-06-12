@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (room != Room6){
+if (room == Room4){
 var _ammoX = 80; // Tọa độ x để vẽ số đạn
 var _ammoY = 170; // Tọa độ y để vẽ số đạn
 

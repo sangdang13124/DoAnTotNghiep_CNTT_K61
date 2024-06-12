@@ -46,6 +46,6 @@ if hitConfirm == true && playerDestroy == true {
 }
 
 // Xóa nếu va chạm với tường
-if place_meeting(x, y, oSolidwall) {
-    instance_destroy();
-}
+//if place_meeting(x, y, oSolidwall) {
+   // instance_destroy();
+//}

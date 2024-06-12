@@ -18,22 +18,22 @@ global.topics[$ "Good Morning"] = [
 ];
 
 global.topics[$ "Breakfast"] = [
-	SPEAKER("Sam", spr_portrait_sam, PORTRAIT_SIDE.LEFT),
-	CHOICE("What do you want for breakfast?",
-		OPTION("Eggs", "Chose Eggs"),
-		OPTION("Pancakes", "Chose Pancakes"))
+	SPEAKER("Sam", spr_portrait_ss, PORTRAIT_SIDE.LEFT),
+	CHOICE("Hello, explorer, this is an extremely dangerous maze. Do you need any help?",
+		OPTION("No, I'm a good adventurer", "Chose No"),
+		OPTION("Yes, I'm very worried", "Chose Yess"))
 ];
 
-global.topics[$ "Chose Eggs"] = [
-	TEXT("That's a healthy way to start the day!"),
+global.topics[$ "Chose No"] = [
+	TEXT("Ohh, so good luck, I believe you will pass and win the reward easily "),
 	GOTO("End of Breakfast")
 ];
 
-global.topics[$ "Chose Pancakes"] = [
-	TEXT("Ooh, yummy!"),
+global.topics[$ "Chose YES"] = [
+	TEXT("You are a brave person, don't worry, your mission is to explore the maze, open doors, fight monsters and win worthy rewards."),
 	GOTO("End of Breakfast")
 ];
 
 global.topics[$ "End of Breakfast"] = [
-	TEXT("Goodbye, now!")
+	TEXT("Let's fight")
 ];

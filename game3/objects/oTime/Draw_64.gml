@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room !=rm_login){
+if(room ==Room6){
 var c = c_green;
 draw_text_color(10,200, string(seconds), c,c,c,c, 1);
 draw_text_color(10,240, string(minutes), c,c,c,c, 1);

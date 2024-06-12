@@ -90,7 +90,7 @@ if sprite_index !=sDragonMonsterAtack
 if sprite_index==sDragonMonsterAtack && floor(image_index)== attackFrame && !attackTriggered
 {
 	attackTriggered=true;
-	var _attackDist =300;
+	var _attackDist =500;
 	var _attackSep =50 ;
 	var _attackNum= round(_attackDist/_attackSep);
 	var _attackDirSep = 0;
@@ -154,6 +154,7 @@ if _wallCollisions == true
 if place_meeting(x + xspd , y, oWall) {xspd = 0;}
 if place_meeting(x , y + yspd , oWall) {yspd = 0;}
 ///quai vat va cham voi nhau
+check_for_player()
 if place_meeting(x + xspd , y, oEnemyParent) {xspd=0;}
 if place_meeting(x , y + yspd , oEnemyParent) {yspd=0;}
 }

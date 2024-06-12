@@ -5,3 +5,4 @@ if instance_exists(bulletInst)&& bulletInst.state == 0
 }
 
 instance_create_depth(x,y,depth,superBoom);
+instance_create_depth(x,y,depth,obj_key_room6);

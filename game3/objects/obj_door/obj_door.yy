@@ -11,7 +11,10 @@
     "name":"AssetRoom4",
     "path":"folders/AssetRoom4.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolidwall",
+    "path":"objects/oSolidwall/oSolidwall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

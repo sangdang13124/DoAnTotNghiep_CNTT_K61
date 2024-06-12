@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"loadMoneyData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"loadMoneyData",
+  "parent":{
+    "name":"money",
+    "path":"folders/money.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

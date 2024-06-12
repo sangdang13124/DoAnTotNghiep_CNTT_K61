@@ -47,7 +47,7 @@ _spd = moveSpd * _inputLevel;
 xspd = lengthdir_x(_spd, moveDir);
 yspd = lengthdir_y(_spd, moveDir);
 
-if (keyboard_check_pressed(vk_f3) && dashCooldownCounter <= 0) {
+if (keyboard_check_pressed(vk_space) && dashCooldownCounter <= 0) {
     dashCounter = dashTime;
     dashDir = moveDir;
     dashCooldownCounter = dashCooldown;
