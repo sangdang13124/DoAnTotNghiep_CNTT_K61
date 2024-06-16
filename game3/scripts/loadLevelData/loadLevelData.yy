@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"loadLevelData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"loadLevelData",
+  "parent":{
+    "name":"group1",
+    "path":"folders/UI/group1.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

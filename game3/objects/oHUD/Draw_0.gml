@@ -1,3 +1,6 @@
+
+if room == Room4 {
+
 ///lấy tọa độ cam
 var _camX = camera_get_view_x(view_camera[0]);
 var _camY = camera_get_view_y(view_camera[0]);
@@ -29,11 +32,7 @@ draw_sprite(sHealthbar,_img,_hudX+_sep*i,_hudY);
 //  var _ammoY =obj_player.y+  _offset;
 //  draw_text_transformed(_ammoX,_ammoY,string(global.PlayerAmmo[obj_player.selectedWeapon]),0.5,0.5,0);
   
-  
-var _ammoX = 100; // Tọa độ x để vẽ số đạn
-var _ammoY = 200; // Tọa độ y để vẽ số đạn
 
-draw_text_transformed(_ammoX, _ammoY, string(global.PlayerAmmo[obj_player.selectedWeapon]), 0.5, 0.5, 0);
   
 }
 
@@ -62,3 +61,4 @@ draw_set_font(Font1);
 //{
 //	draw_text(_ecHudX,_ecHudY+32+16*i,string(_playerammo[i]));
 //}
+}

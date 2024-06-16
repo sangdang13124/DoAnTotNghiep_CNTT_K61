@@ -15,5 +15,15 @@ global.enemyKillCount = 1000;
 // Sự kiện Create của obj_controller:
 global.money = 1000; // Số tiền khởi đầu của người chơi
 
+if (!variable_global_exists("level")) {
+    global.level = 1;
+}
+if (!variable_global_exists("xp")) {
+    global.xp = 0;
+}
+if (!variable_global_exists("next_level_xp")) {
+    global.next_level_xp = 6;
+}
+
 
 

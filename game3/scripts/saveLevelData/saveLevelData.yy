@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"saveLevelData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saveLevelData",
+  "parent":{
+    "name":"group1",
+    "path":"folders/UI/group1.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
