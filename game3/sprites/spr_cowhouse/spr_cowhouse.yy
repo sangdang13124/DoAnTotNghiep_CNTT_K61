@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_cowhouse",
   "bboxMode":2,
-  "bbox_bottom":18,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":115,
+  "bbox_right":130,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":210,
+  "height":205,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b1adaef3-8bbe-40b7-9e9d-f338575d1113","blendMode":0,"displayName":"default","isLocked":false,"name":"b1adaef3-8bbe-40b7-9e9d-f338575d1113","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"channuoi",
-    "path":"folders/channuoi.yy",
+    "name":"cow",
+    "path":"folders/channuoi/cow.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":270,
+  "width":260,
 }

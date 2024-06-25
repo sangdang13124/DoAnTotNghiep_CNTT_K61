@@ -8,8 +8,8 @@
   "name":"obj_milk",
   "overriddenProperties":[],
   "parent":{
-    "name":"channuoi",
-    "path":"folders/channuoi.yy",
+    "name":"cow",
+    "path":"folders/channuoi/cow.yy",
   },
   "parentObjectId":{
     "name":"obj_item",

@@ -1,5 +1,10 @@
 if (room == Room6) {
-	
+save_crop_data();
+}
+
+/*
+if (room == Room6) {
+
     var inst_num = instance_number(obj_crops);
     if (inst_num == 0) {
         ds_grid_clear(ds_crops_data, -1); // No data

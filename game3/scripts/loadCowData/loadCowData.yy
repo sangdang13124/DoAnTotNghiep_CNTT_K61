@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"loadCowData",
   "parent":{
-    "name":"channuoi",
-    "path":"folders/channuoi.yy",
+    "name":"cow",
+    "path":"folders/channuoi/cow.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

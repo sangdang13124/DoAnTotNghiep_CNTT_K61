@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"saveBeeData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saveBeeData",
+  "parent":{
+    "name":"bee",
+    "path":"folders/channuoi/bee.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

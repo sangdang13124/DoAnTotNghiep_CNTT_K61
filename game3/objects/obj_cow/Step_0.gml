@@ -12,25 +12,25 @@ if (move_timer <= 0) {
 // Di chuyển bò dựa trên hướng di chuyển đã chọn
 switch (move_direction) {
     case 1: // Lên
-        if (place_free(x, y - move_speed) && y - move_speed >= obj_cowhouse.y + 10) {
+        if (place_free(x, y - move_speed) && y - move_speed >= obj_cowhouse.y + 20) {
             y -= move_speed;
         }
         sprite_index = spr_bo_up; // Cập nhật sprite cho hướng lên
         break;
     case 2: // Xuống
-        if (place_free(x, y + move_speed) && y + move_speed <= obj_cowhouse.y + obj_cowhouse.sprite_height - 10) {
+        if (place_free(x, y + move_speed) && y + move_speed <= obj_cowhouse.y + obj_cowhouse.sprite_height - 20) {
             y += move_speed;
         }
         sprite_index = spr_bo_down; // Cập nhật sprite cho hướng xuống
         break;
     case 3: // Trái
-        if (place_free(x - move_speed, y) && x - move_speed >= obj_cowhouse.x + 10) {
+        if (place_free(x - move_speed, y) && x - move_speed >= obj_cowhouse.x + 20) {
             x -= move_speed;
         }
         sprite_index = spr_bo_left; // Cập nhật sprite cho hướng trái
         break;
     case 4: // Phải
-        if (place_free(x + move_speed, y) && x + move_speed <= obj_cowhouse.x + obj_cowhouse.sprite_width - 10) {
+        if (place_free(x + move_speed, y) && x + move_speed <= obj_cowhouse.x + obj_cowhouse.sprite_width - 20) {
             x += move_speed;
         }
         sprite_index = spr_bo_right; // Cập nhật sprite cho hướng phải
@@ -54,12 +54,12 @@ if (state_timer <= 0) {
 }
 
 // Kiểm tra va chạm với đối tượng `obj_tomato`
-if (state == "hungry" && place_meeting(x, y, obj_tomato)) { // Chỉ ăn khi đói
+if (state == "hungry" && place_meeting(x, y, obj_cow_feed)) { // Chỉ ăn khi đói
     // Trở lại trạng thái no
     state = "full";
     state_timer = 300; // 10 giây
     // Xóa đối tượng `obj_tomato` sau khi ăn
-    with (instance_nearest(x, y, obj_tomato)) {
+    with (instance_nearest(x, y, obj_cow_feed)) {
         instance_destroy();
     }
 }

@@ -1,32 +1,46 @@
-
 /// Draw event of obj_crafting_cell
 draw_self();
-draw_sprite(object_get_sprite( CRAFTS1[Number][0]),0,x,y);
+draw_sprite(object_get_sprite(CRAFTS1[Number][0]), 0, x, y);
+
 if (hovered) {
-    // Hiển thị công thức khi di chuột
-    var x_offset = -40;
-    var y_offset = 15;
-    
+  // Hiển thị công thức khi di chuột
+    var x_offset = 0; // Để vị trí cố định
+    var y_offset = 0;
+    var white_bg_width = 100; // Chiều rộng của sprite trắng (tùy chỉnh)
+    var white_bg_height = 100; // Chiều cao của sprite trắng (tùy chỉnh)
+
+    // Vẽ sprite trắng tại vị trí cố định
+    draw_sprite(spr_white_bg, 0, global.white_bg_x + x_offset, global.white_bg_y + y_offset - white_bg_height / 2);
+
     draw_set_font(fo_text);
-  // Vẽ sprite và số lượng của nguyên liệu đầu tiên
-    draw_sprite(spr_tomato, 0, x + x_offset, y + y_offset - 48);
-    draw_text(x + x_offset+10 , y + y_offset - 48, string(NeedResource[0]));
+    
+    var text_x_offset = global.white_bg_x + x_offset + 10;
+    var text_y_offset = global.white_bg_y + y_offset - white_bg_height / 2 + 10;
 
-    // Vẽ sprite và số lượng của nguyên liệu thứ hai
-    draw_sprite(spr_potato, 0, x + x_offset, y + y_offset - 64);
-    draw_text(x + x_offset + 10, y + y_offset - 64, string(NeedResource[1]));
-	
-	 // Vẽ sprite và số lượng của nguyên liệu thứ hai
-    draw_sprite(spr_carrot, 0, x + x_offset, y + y_offset - 80);
-    draw_text(x + x_offset + 10, y + y_offset - 80, string(NeedResource[1]));
-	
-	 // Vẽ sprite và số lượng của nguyên liệu thứ hai
-    draw_sprite(spr_corn, 0, x + x_offset, y + y_offset - 96);
-    draw_text(x + x_offset + 10, y + y_offset - 96, string(NeedResource[1]));
-	
+    // Kiểm tra và vẽ nguyên liệu đầu tiên (cà chua)
+    if (NeedResource[0] > 0) {
+        draw_sprite(spr_tomato, 0, text_x_offset, text_y_offset);
+        draw_text(text_x_offset + 20, text_y_offset, string(NeedResource[0]));
+        text_y_offset += 20;
+    }
+
+    // Kiểm tra và vẽ nguyên liệu thứ hai (khoai tây)
+    if (NeedResource[1] > 0) {
+        draw_sprite(spr_potato, 0, text_x_offset, text_y_offset);
+        draw_text(text_x_offset + 20, text_y_offset, string(NeedResource[1]));
+        text_y_offset += 20;
+    }
+
+    // Kiểm tra và vẽ nguyên liệu thứ ba (cà rốt)
+    if (NeedResource[2] > 0) {
+        draw_sprite(spr_carrot, 0, text_x_offset, text_y_offset);
+        draw_text(text_x_offset + 20, text_y_offset, string(NeedResource[2]));
+        text_y_offset += 20;
+    }
+
+    // Kiểm tra và vẽ nguyên liệu thứ tư (ngô)
+    if (NeedResource[3] > 0) {
+        draw_sprite(spr_corn, 0, text_x_offset, text_y_offset);
+        draw_text(text_x_offset + 20, text_y_offset, string(NeedResource[3]));
+    }
 }
-
-
-
-
-

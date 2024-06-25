@@ -1,6 +1,4 @@
 
-
-
 if Dragging == true {
     if collision_point(x, y, obj_inventory_cell, 0, 1) {
         var cell = collision_point(x, y, obj_inventory_cell, 0, 1);

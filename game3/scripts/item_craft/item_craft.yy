@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"item_craft",
   "parent":{
-    "name":"Congthucchetao",
-    "path":"folders/Congthucchetao.yy",
+    "name":"congthuccap2",
+    "path":"folders/Congthucchetao/congthuccap2.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

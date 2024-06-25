@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
 ds_crops_instances = -1;
 
 ds_crops_types=-1;
@@ -20,13 +18,13 @@ enum crop{
 	corn
 }
 
-create_crop_type(1,10,"tomato");//tomato
-create_crop_type(2,20,"potato");//potato
-create_crop_type(3,30,"carrot");//carrot
-create_crop_type(4,40,"artichoke");//artichoke
-create_crop_type(5,50,"chili");//chilli
-create_crop_type(6,60,"ground");//gourd
-create_crop_type(7,70,"corn");//corn
+create_crop_type(3,10,"tomato");//tomato
+create_crop_type(3,10,"potato");//potato
+create_crop_type(3,10,"carrot");//carrot
+create_crop_type(3,10,"artichoke");//artichoke
+create_crop_type(3,10,"chili");//chilli
+create_crop_type(3.5,10,"ground");//gourd
+create_crop_type(3.5,10,"corn");//corn
 
 planting =false;
 selectCrop =0 ;

@@ -29,7 +29,7 @@ global.topics[$ "Chose No"] = [
 	GOTO("End of Breakfast")
 ];
 
-global.topics[$ "Chose YES"] = [
+global.topics[$ "Chose Yess"] = [
 	TEXT("You are a brave person, don't worry, your mission is to explore the maze, open doors, fight monsters and win worthy rewards."),
 	GOTO("End of Breakfast")
 ];

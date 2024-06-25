@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"channuoi",
-    "path":"folders/channuoi.yy",
+    "name":"cow",
+    "path":"folders/channuoi/cow.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

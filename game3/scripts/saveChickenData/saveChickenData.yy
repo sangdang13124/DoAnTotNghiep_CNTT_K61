@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"saveChickenData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saveChickenData",
+  "parent":{
+    "name":"chiken",
+    "path":"folders/channuoi/chiken.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

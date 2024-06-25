@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(room == Room6){
-var gui_x = 50;
-var gui_y = 50;
-var gui_width = 3300;
-var gui_height = 1755;
+var gui_x = 0;
+var gui_y = 0;
+var gui_width = 6000;
+var gui_height = 1800;
 
 if(draw_daylight){
     var c = light_colour;

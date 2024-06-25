@@ -25,5 +25,9 @@ if (!variable_global_exists("next_level_xp")) {
     global.next_level_xp = 6;
 }
 
+// Event Create of obj_game_controller
+global.white_bg_x = 977;
+global.white_bg_y = 2530;
+
 
 

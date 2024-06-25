@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Congthucchetao",
-    "path":"folders/Congthucchetao.yy",
+    "name":"congthucchetaodoan",
+    "path":"folders/Congthucchetao/congthucchetaodoan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

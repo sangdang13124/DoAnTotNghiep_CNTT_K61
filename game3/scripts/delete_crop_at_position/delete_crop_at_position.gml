@@ -12,24 +12,31 @@ function delete_crop_and_harvest(x, y) {
             switch (crop_instance.cropType) {
                 case crop.tomato:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_tomato);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.potato:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_potato);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.carrot:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_carrot);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.artichoke:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_artichoke);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.chilli:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_chilli);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.gourd:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_gourd);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 case crop.corn:
                     instance_create_depth(x * cellSize + 10, y * cellSize + 10, 0, obj_corn);
+					 instance_create_layer(mouse_x, mouse_y, "Instances", obj_xp);
                     break;
                 default:
                     // Xử lý trường hợp không xác định

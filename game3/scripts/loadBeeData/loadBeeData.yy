@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"loadBeeData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"loadBeeData",
+  "parent":{
+    "name":"bee",
+    "path":"folders/channuoi/bee.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

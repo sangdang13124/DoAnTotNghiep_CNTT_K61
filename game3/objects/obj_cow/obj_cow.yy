@@ -10,8 +10,8 @@
   "name":"obj_cow",
   "overriddenProperties":[],
   "parent":{
-    "name":"channuoi",
-    "path":"folders/channuoi.yy",
+    "name":"cow",
+    "path":"folders/channuoi/cow.yy",
   },
   "parentObjectId":null,
   "persistent":false,

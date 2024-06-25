@@ -17,3 +17,6 @@
 		 instance_destroy(Cells[i]);
 	 }
  }
+ 
+ 
+ 

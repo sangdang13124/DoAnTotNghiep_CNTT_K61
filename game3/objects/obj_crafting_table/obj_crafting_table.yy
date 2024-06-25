@@ -9,8 +9,8 @@
   "name":"obj_crafting_table",
   "overriddenProperties":[],
   "parent":{
-    "name":"Congthucchetao",
-    "path":"folders/Congthucchetao.yy",
+    "name":"congthucchetaocongcu",
+    "path":"folders/Congthucchetao/congthucchetaocongcu.yy",
   },
   "parentObjectId":{
     "name":"oSolidwall",
